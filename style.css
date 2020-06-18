@@ -2,4 +2,120 @@ body {
     padding: 0;
     margin: 0;
     font-family: sans-serif;
+    background-color: #DFEBF3;
+    background: url(./Sydney-Skyline_Daniel-Tran.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #fff;
+    padding: 18px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    padding: 12px;
+    list-style-type: none;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.3rem;
+}
+
+nav {
+    float: right;
+    margin-top: 5px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+showcase {
+    padding-bottom: 300px;
+}
+
+showcase h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.7rem;
+}
+
+showcase p {
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.btn1 {
+    margin-left: 38%;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 1.2rem;
+    margin-top: 2%;
+}
+
+.btn2 {
+    padding: 0.7rem;
+    width: auto;
+    background-color: transparent;
+    margin-left: 2%;
+    margin-top: 2%;
+    border-radius: 1.2rem;
+
+}
+
+.head {
+    float: left;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+footer {
+    background-color: #fff;
+    padding: 0.7rem;
+    padding-bottom: 100px;
+    margin-top: 10%;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    padding-top: 1.5%;
+}
+.right {
+    float: right;
+    width: 80%;
+    padding-top: 3%;
+}
+
+.right input {
+    margin-left: 0.3rem;
+    margin-right: 2rem;
+    font-size: 1rem;
+    width: 250px ;
+}
+
+.btn3 {
+    padding: 7px 12px;
+    color: #fff;
+    background-color: rgba(1, 161, 133, 0.7) ;
+    border-radius: 1.2rem;
+    margin-top: 3%;
+    border: none;
+    margin-left: 2%;
+    text-decoration: none;
+    font-family: sans-serif;
 }
